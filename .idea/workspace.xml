@@ -5,37 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd44028-a128-4071-9855-1cc3fc51a55c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativewind-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/explore.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/+not-found.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceMono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Collapsible.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ExternalLink.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HapticTab.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HelloWave.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ParallaxScrollView.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ThemedText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ThemedView.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/IconSymbol.ios.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/IconSymbol.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/TabBarBackground.ios.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/TabBarBackground.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useColorScheme.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useColorScheme.web.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useThemeColor.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CartButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/reset-project.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NoureddineDRIOUECH&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NoureddineDRIOUECH/Fast-Food.git&quot;,
+    &quot;accountId&quot;: &quot;8a232ff8-8a43-4948-99b1-d4092bba806a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="30ICK6rzlltLlboE6alrajFGurD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,11 +59,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/noureddinedriouech/Videos/AdminDashboard",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/home/noureddinedriouech/Downloads/fast_food/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,8 +75,14 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(tabs)" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -96,10 +99,28 @@
       <option name="presentableId" value="Default" />
       <updated>1753305632956</updated>
       <workItem from="1753305634210" duration="3909000" />
+      <workItem from="1753348794782" duration="149000" />
+      <workItem from="1753348994326" duration="29000" />
+      <workItem from="1753349066457" duration="595000" />
+      <workItem from="1753349731202" duration="5087000" />
+      <workItem from="1753357058973" duration="22000" />
+      <workItem from="1753375873014" duration="273000" />
+      <workItem from="1753474087664" duration="6956000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
