@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd44028-a128-4071-9855-1cc3fc51a55c" name="Changes" comment="feat: add new authentication and tabs layout with reusable components&#10;&#10;- Introduced `sign-in` and `sign-up` screens within the `(auth)` folder.&#10;- Added authentication and tab-specific layouts to organize navigation structure.&#10;- Created reusable `CartButton` component with badge support.&#10;- Defined Tailwind CSS utility classes for consistent styling.&#10;- Integrated `clsx` for conditional class management.">
+    <list default="true" id="5bd44028-a128-4071-9855-1cc3fc51a55c" name="Changes" comment="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions.">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CustomButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CustomInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/auth.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +93,7 @@
       <workItem from="1753357058973" duration="22000" />
       <workItem from="1753375873014" duration="273000" />
       <workItem from="1753474087664" duration="7308000" />
-      <workItem from="1753529036385" duration="11928000" />
+      <workItem from="1753529036385" duration="12219000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new authentication and tabs layout with reusable components&#10;&#10;- Introduced `sign-in` and `sign-up` screens within the `(auth)` folder.&#10;- Added authentication and tab-specific layouts to organize navigation structure.&#10;- Created reusable `CartButton` component with badge support.&#10;- Defined Tailwind CSS utility classes for consistent styling.&#10;- Integrated `clsx` for conditional class management.">
       <option name="closed" value="true" />
@@ -120,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753483657497</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions.">
+      <option name="closed" value="true" />
+      <created>1753548539374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753548539374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add new authentication and tabs layout with reusable components&#10;&#10;- Introduced `sign-in` and `sign-up` screens within the `(auth)` folder.&#10;- Added authentication and tab-specific layouts to organize navigation structure.&#10;- Created reusable `CartButton` component with badge support.&#10;- Defined Tailwind CSS utility classes for consistent styling.&#10;- Integrated `clsx` for conditional class management." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add new authentication and tabs layout with reusable components&#10;&#10;- Introduced `sign-in` and `sign-up` screens within the `(auth)` folder.&#10;- Added authentication and tab-specific layouts to organize navigation structure.&#10;- Created reusable `CartButton` component with badge support.&#10;- Defined Tailwind CSS utility classes for consistent styling.&#10;- Integrated `clsx` for conditional class management." />
+    <MESSAGE value="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions." />
   </component>
 </project>
