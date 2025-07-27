@@ -1,18 +1,20 @@
 import {Fragment} from "react";
-import {Button, FlatList, Image, Pressable, SafeAreaView, StatusBar, Text, TouchableOpacity, View} from "react-native";
+import { FlatList, Image, Pressable, SafeAreaView,  Text, TouchableOpacity, View} from "react-native";
 import cn from 'clsx';
 import {Platform} from "expo-modules-core";
 
 import {images, offers} from "@/constants";
 import CartButton from "@/components/CartButton";
-import useAuthStore from "@/store/auth.store";
+// import useAuthStore from "@/store/auth.store";
+// eslint-disable-next-line import/no-named-as-default
+import Constants from "expo-constants/src/Constants";
 
 export default function Index() {
-    const {user} = useAuthStore();
+    // const {user} = useAuthStore();
   return (
       <SafeAreaView
           className={cn('flex-1 bg-white')}
-          style={Platform.OS === 'android' ? { paddingTop: StatusBar.currentHeight } : undefined}
+          style={Platform.OS === 'android' ? {paddingTop: Constants.statusBarHeight} : {}}
       >
           <FlatList  data={offers}
                      ListHeaderComponent={() => (

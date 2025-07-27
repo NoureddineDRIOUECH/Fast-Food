@@ -40,3 +40,6 @@ app-example
 
 .env.local
 .env
+*.env
+.idea/
+.vscode/

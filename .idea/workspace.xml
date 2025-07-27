@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd44028-a128-4071-9855-1cc3fc51a55c" name="Changes" comment="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions.">
+    <list default="true" id="5bd44028-a128-4071-9855-1cc3fc51a55c" name="Changes" comment="feat: implement tab bar navigation with custom icons and styles&#10;&#10;- Added `Tabs` layout with tab-specific navigation for Home, Search, Cart, and Profile screens.  &#10;- Created reusable `TabBarIcon` component with icon and label customization.  &#10;- Designed custom tab bar styles for improved aesthetics and usability.">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +96,7 @@
       <workItem from="1753375873014" duration="273000" />
       <workItem from="1753474087664" duration="7308000" />
       <workItem from="1753529036385" duration="12219000" />
+      <workItem from="1753554286059" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new authentication and tabs layout with reusable components&#10;&#10;- Introduced `sign-in` and `sign-up` screens within the `(auth)` folder.&#10;- Added authentication and tab-specific layouts to organize navigation structure.&#10;- Created reusable `CartButton` component with badge support.&#10;- Defined Tailwind CSS utility classes for consistent styling.&#10;- Integrated `clsx` for conditional class management.">
       <option name="closed" value="true" />
@@ -111,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753548539374</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: implement tab bar navigation with custom icons and styles&#10;&#10;- Added `Tabs` layout with tab-specific navigation for Home, Search, Cart, and Profile screens.  &#10;- Created reusable `TabBarIcon` component with icon and label customization.  &#10;- Designed custom tab bar styles for improved aesthetics and usability.">
+      <option name="closed" value="true" />
+      <created>1753555130769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753555130769</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add new authentication and tabs layout with reusable components&#10;&#10;- Introduced `sign-in` and `sign-up` screens within the `(auth)` folder.&#10;- Added authentication and tab-specific layouts to organize navigation structure.&#10;- Created reusable `CartButton` component with badge support.&#10;- Defined Tailwind CSS utility classes for consistent styling.&#10;- Integrated `clsx` for conditional class management." />
     <MESSAGE value="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add new dependencies and update workspace settings&#10;&#10;- Integrated new dependencies: `@sentry/react-native`, `zustand`, `react-native-appwrite`, and `react-native-url-polyfill`.&#10;- Updated `.idea/workspace.xml` for task and VCS configuration changes.&#10;- Expanded `package-lock.json` with additional dependency resolutions." />
+    <MESSAGE value="feat: implement tab bar navigation with custom icons and styles&#10;&#10;- Added `Tabs` layout with tab-specific navigation for Home, Search, Cart, and Profile screens.  &#10;- Created reusable `TabBarIcon` component with icon and label customization.  &#10;- Designed custom tab bar styles for improved aesthetics and usability." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement tab bar navigation with custom icons and styles&#10;&#10;- Added `Tabs` layout with tab-specific navigation for Home, Search, Cart, and Profile screens.  &#10;- Created reusable `TabBarIcon` component with icon and label customization.  &#10;- Designed custom tab bar styles for improved aesthetics and usability." />
   </component>
 </project>

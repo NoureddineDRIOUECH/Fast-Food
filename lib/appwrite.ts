@@ -1,12 +1,17 @@
-import {Account, Avatars, Client, Databases, ID, Query} from "react-native-appwrite";
+import {Account, Avatars, Client, Databases, ID, Query, Storage} from "react-native-appwrite";
 import {CreateUserPrams, SignInParams} from "@/type";
 
 export const appwriteConfig = {
-    endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
-    projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
+    endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT!,
+    projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     platform: "com.driouech.foodordering",
     databaseId: "6884c8f80023ed25bf52",
-    userCollectionId: '6884c930000deec4016e'
+    bucketId: '68855eee0003de3d454c',
+    userCollectionId: '6884c930000deec4016e',
+    categoriesConllectionId: '68855a42001b5ca9be45',
+    menuCollectionId: '68855ad1001485f95a2c',
+    costumizationsCollectionId: '68855c4b0032e3eab418',
+    menuCustomisationCollectionId: '68855d3500139b162705'
 }
 export const client = new Client();
 client
@@ -15,7 +20,7 @@ client
     .setPlatform(appwriteConfig.platform)
 export const account = new Account(client);
 export const databases = new Databases(client)
-
+export const storage = new Storage(client);
 const avatarts = new Avatars(client);
 export const createUser = async ({email, password, name} : CreateUserPrams)=>{
     try {
@@ -51,6 +56,36 @@ export const getCurrentUser = async () =>{
         )
         if(!currentUser) throw new Error
         return currentUser.documents[0];
+    }catch (e) {
+        throw new Error(e as string)
+    }
+}
+
+export const getMenu = async ({category,query}) => {
+    try {
+        const queries: string[] = []
+        if(category) queries.push(Query.equal('categories', category))
+        if(query) queries.push(Query.search('name', query))
+        const menus = await databases.listDocuments(
+            appwriteConfig.databaseId,
+            appwriteConfig.menuCollectionId,
+            queries
+            )
+
+        return menus.documents;
+    }catch (e) {
+        throw new Error(e as string)
+    }
+}
+
+export const getCaegories = async () =>{
+    try {
+        const categories = await databases.listDocuments(
+            appwriteConfig.databaseId,
+            appwriteConfig.categoriesConllectionId,
+            )
+
+        return categories.documents;
     }catch (e) {
         throw new Error(e as string)
     }
