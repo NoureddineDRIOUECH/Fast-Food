@@ -1,4 +1,4 @@
-import {View, Text, Button, Alert} from 'react-native'
+import {View, Text, Alert} from 'react-native'
 import React, {useState} from 'react'
 import  * as Sentry from '@sentry/react-native';
 import {Link, router} from "expo-router";

@@ -3,11 +3,14 @@ import {getCaegories, getMenu} from "@/lib/appwrite";
 import useAppwrite from "@/lib/useAppwrite";
 import {useLocalSearchParams} from "expo-router";
 import {useEffect} from "react";
-import {Platform} from "expo-modules-core";
-// eslint-disable-next-line import/no-named-as-default
-import Constants from "expo-constants/src/Constants";
+// import {Platform} from "expo-modules-core";
+// import Constants from "expo-constants/src/Constants";
 import CartButton from "@/components/CartButton";
 import cn from "clsx";
+import MenuCard from "@/components/MenuCard";
+import {MenuItem} from "@/type";
+import SearchBar from "@/components/SearchBar";
+import Filter from "@/components/Filter";
 
 const Search = () => {
     const {category,query} = useLocalSearchParams<{ query: string; category: string }>()
@@ -28,7 +31,9 @@ const Search = () => {
         refetch({category,query, limit:6})
     }, [category, query, refetch]);
     return (
-        <SafeAreaView className={'bg-white h-full'} style={Platform.OS === 'android' ? {paddingTop: Constants.statusBarHeight} : {}}>
+        <SafeAreaView className={'bg-white h-full'}
+                      // style={Platform.OS === 'android' ? {paddingTop: Constants.statusBarHeight} : {}}
+        >
             <FlatList
 
                 data={data}
@@ -37,7 +42,7 @@ const Search = () => {
                     return (
 
                         <View className={cn('flex-1 max-w-[48%]', !isFirstRightColItem ? 'mt-10' : 'mt-0')}>
-                            <Text>Menu Card</Text>
+                            <MenuCard item={item as MenuItem} />
                         </View>
                     )
                 }}
@@ -56,8 +61,8 @@ const Search = () => {
                             </View>
                             <CartButton/>
                         </View>
-                        <Text>Search Input</Text>
-                        <Text>Filter</Text>
+                        <SearchBar/>
+                        <Filter categories={categories!}/>
                     </View>
                 )}
                 ListEmptyComponent = {() => !loading && <Text>No results</Text>}

@@ -1,4 +1,4 @@
-import {View, Text, Button, Alert} from 'react-native'
+import {View, Text, Alert} from 'react-native'
 import React, {useState} from 'react'
 import {Link, router} from "expo-router";
 import CustomInput from "@/components/CustomInput";
