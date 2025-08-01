@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Fast Food Ordering App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a mobile application for ordering fast food, built with React Native and Expo. It allows users to browse a menu, add items to their cart, and place orders. The app uses Appwrite for its backend services and Zustand for state management.
 
-## Get started
+## Features
 
-1. Install dependencies
+-   **User Authentication:** Sign up and sign in with email and password.
+-   **Browse Menu:** View a list of available food items.
+-   **Search and Filter:** Search for specific items and filter by category.
+-   **Shopping Cart:** Add and remove items from the cart.
+-   **Order Placement:** Place orders for the items in the cart.
+-   **Profile Management:** View and update user profile information.
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+-   **Frontend:** React Native, Expo, Tailwind CSS
+-   **Backend:** Appwrite
+-   **State Management:** Zustand
+-   **Routing:** Expo Router
+-   **UI Components:** NativeWind
 
-   ```bash
-   npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
+To get a local copy up and running, follow these simple steps.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-   Node.js
+-   npm
+-   Expo CLI
 
-## Get a fresh project
+### Installation
 
-When you're ready, run:
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/NoureddineDRIOUECH/Fast-Food.git
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+3.  Set up your Appwrite backend and add the environment variables to a `.env` file in the root of the project.
+    ```
+    EXPO_PUBLIC_APPWRITE_ENDPOINT=...
+    EXPO_PUBLIC_APPWRITE_PROJECT_ID=...
+    ```
 
-```bash
-npm run reset-project
-```
+### Running the App
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+-   Start the Expo development server
+    ```sh
+    npx expo start
+    ```
+-   Follow the instructions in the terminal to run the app on an emulator or a physical device.
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Distributed under the MIT License. See `LICENSE` for more information.
